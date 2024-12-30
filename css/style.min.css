@@ -95,7 +95,9 @@ img {
   font-size: 40px; }
 
 section {
-  position: relative; }
+  position: relative; 
+  overflow: hidden;
+}
 
 .section-content {
   padding-top: 80px;
