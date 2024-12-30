@@ -1,13 +1,13 @@
 
 html, body {
-  width: 100%;
-  overflow: hidden; }
+  width: 100%; }
 
 body {
   font-family: 'Lato', sans-serif;
   font-weight: 300; }
 
 .container-t {
+  overflow: hidden;
   
 }
 
@@ -96,7 +96,7 @@ img {
 
 section {
   position: relative; 
-  overflow: hidden;
+  overflow: visible;
 }
 
 .section-content {
