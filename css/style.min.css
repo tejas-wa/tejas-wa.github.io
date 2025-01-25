@@ -21,6 +21,35 @@ body {
     margin-bottom: 1em;
 }
 
+.project-item {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.project-item h4 {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.project-item p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.project-item a {
+    font-size: 1rem;
+    color: #007bff;
+    text-decoration: none;
+}
+
+.project-item a:hover {
+    text-decoration: underline;
+}
+
+
 @media only screen and (max-width: 600px) {
     .container-t h1 {
       text-align: center;
