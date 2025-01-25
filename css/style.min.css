@@ -21,33 +21,66 @@ body {
     margin-bottom: 1em;
 }
 
+/* General section styling */
+#portfolio {
+  background-color: #f8f9fa; /* Same as other sections */
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.container {
+  max-width: 1200px; /* Ensure content is centered and not too wide */
+  margin: 0 auto;
+}
+
+.section-content {
+  text-align: center;
+}
+
 .project-item {
-    margin-bottom: 20px;
-    padding: 15px;
-    background-color: #f8f9fa;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin: 20px auto; /* Adds spacing between each project */
+  padding: 15px;
+  background-color: #ffffff; /* White background for projects */
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  max-width: 600px; /* Ensures project items are not too wide */
 }
 
 .project-item h4 {
-    font-size: 1.5rem;
-    font-weight: bold;
+  font-size: 1.5rem;
+  font-weight: bold;
 }
 
 .project-item p {
-    font-size: 1rem;
-    margin-bottom: 10px;
+  font-size: 1rem;
+  margin-bottom: 10px;
 }
 
 .project-item a {
-    font-size: 1rem;
-    color: #007bff;
-    text-decoration: none;
+  font-size: 1rem;
+  color: #007bff;
+  text-decoration: none;
 }
 
 .project-item a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
+
+/* Flexbox for centering the project items */
+.section-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px; /* Space between projects */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .project-item {
+    max-width: 100%;
+  }
+}
+
 
 
 @media only screen and (max-width: 600px) {
