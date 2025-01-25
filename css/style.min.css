@@ -23,27 +23,25 @@ body {
 
 /* General section styling */
 #portfolio {
-  background-color: #f8f9fa; /* Same as other sections */
+  background-color: #f8f9fa; /* Set this to match the background color of other sections */
+}
+
+.section-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centers the content horizontally */
   padding-top: 80px;
   padding-bottom: 80px;
 }
 
-.container {
-  max-width: 1200px; /* Ensure content is centered and not too wide */
-  margin: 0 auto;
-}
-
-.section-content {
-  text-align: center;
-}
-
 .project-item {
-  margin: 20px auto; /* Adds spacing between each project */
-  padding: 15px;
-  background-color: #ffffff; /* White background for projects */
+  margin-bottom: 30px; /* Adds spacing between projects */
+  padding: 20px;
+  background-color: #ffffff; /* Ensure the background is white for the project items */
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  max-width: 600px; /* Ensures project items are not too wide */
+  width: 80%; /* Set a fixed width for the project items */
+  max-width: 600px; /* Prevents the project items from becoming too wide */
 }
 
 .project-item h4 {
@@ -66,20 +64,12 @@ body {
   text-decoration: underline;
 }
 
-/* Flexbox for centering the project items */
-.section-content {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 30px; /* Space between projects */
-}
-
-/* Responsive adjustments */
-@media (max-width: 768px) {
+@media only screen and (max-width: 768px) {
   .project-item {
-    max-width: 100%;
+    width: 90%; /* Adjust width for smaller screens */
   }
 }
+
 
 
 
