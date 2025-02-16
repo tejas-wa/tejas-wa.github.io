@@ -1,6 +1,8 @@
-/* css */
 html, body {
-  width: 100%; }
+  overflow-x: hidden; /* Prevent horizontal scrolling */
+  width: 100%; /* Ensure the body takes full width */
+  max-width: 100%; /* Prevent any overflow */
+}
 
 body {
   font-family: 'Lato', sans-serif;
@@ -9,6 +11,7 @@ body {
 }
 
 .container-t {
+  max-width: 100%; /* Ensure containers don't overflow */
   overflow: hidden;
 
 }
