@@ -680,12 +680,12 @@ section {
 /* Adjust the carousel for smaller screens */
 @media (max-width: 767px) {
   .client-slider .client-item {
-    padding: 0 10px; /* Further reduce padding for smaller screens */
+    padding: 0 5px; /* Further reduce padding for smaller screens */
   }
 
   .client-slider .client-item img {
-    max-height: 100px; /* Increase the maximum height for smaller screens */
-    width: 100px; /* Set a fixed width for better control */
+    max-height: 150px; /* Increase the maximum height for smaller screens */
+    width: 150px; /* Set a fixed width for better control */
   }
 }
 
