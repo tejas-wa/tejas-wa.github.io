@@ -1,8 +1,6 @@
+/* css */
 html, body {
-  overflow-x: hidden; /* Prevent horizontal scrolling */
-  width: 100%; /* Ensure the body takes full width */
-  max-width: 100%; /* Prevent any overflow */
-}
+  width: 100%; }
 
 body {
   font-family: 'Lato', sans-serif;
@@ -11,7 +9,6 @@ body {
 }
 
 .container-t {
-  max-width: 100%; /* Ensure containers don't overflow */
   overflow: hidden;
 
 }
@@ -654,41 +651,6 @@ section {
 .grid-title {
   text-align: center; }
 
-/* Client Section Styling */
-/* Client Section Styling */
-#client {
-  padding: 60px 0;
-}
-
-.client-holder {
-  overflow: hidden;
-}
-
-.client-slider .client-item {
-  padding: 0 20px; /* Reduce padding for smaller screens */
-  text-align: center;
-}
-
-.client-slider .client-item img {
-  max-width: 100%; /* Ensure images don't exceed their container */
-  height: auto; /* Maintain aspect ratio */
-  max-height: 80px; /* Set a maximum height for the logos */
-  width: auto; /* Allow the width to adjust based on height */
-  margin: 0 auto; /* Center the logos */
-}
-
-/* Adjust the carousel for smaller screens */
-@media (max-width: 767px) {
-  .client-slider .client-item {
-    padding: 0 5px; /* Further reduce padding for smaller screens */
-  }
-
-  .client-slider .client-item img {
-    max-height: 150px; /* Increase the maximum height for smaller screens */
-    width: 150px; /* Set a fixed width for better control */
-  }
-}
-
 /*=====  End of PORTFOLIO  ======*/
 /*===============================
 =            SideNav            =
@@ -920,3 +882,5 @@ section {
   .jumbotron h2 {
     font-size: 1rem; }
   }
+
+/*=====  End of RESPONSIVE  ======*/
