@@ -655,6 +655,7 @@ section {
   text-align: center; }
 
 /* Client Section Styling */
+/* Client Section Styling */
 #client {
   padding: 60px 0;
 }
@@ -683,7 +684,8 @@ section {
   }
 
   .client-slider .client-item img {
-    max-height: 60px; /* Reduce the maximum height for smaller screens */
+    max-height: 100px; /* Increase the maximum height for smaller screens */
+    width: 100px; /* Set a fixed width for better control */
   }
 }
 
