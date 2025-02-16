@@ -10,7 +10,7 @@ body {
 
 .container-t {
   overflow: hidden;
-  
+
 }
 
 .container-t h1 {
@@ -147,6 +147,7 @@ img {
 
 section {
   position: relative; 
+  overflow: visible;
   overflo-x: hidden;
 }
 
@@ -881,5 +882,3 @@ section {
   .jumbotron h2 {
     font-size: 1rem; }
   }
-
-/*=====  End of RESPONSIVE  ======*/
